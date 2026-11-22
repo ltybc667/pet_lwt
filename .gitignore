@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+debug_dist/
+verified_dist/
+release/
+*.spec
+pets/*
+!pets/ExampleCat.gif
