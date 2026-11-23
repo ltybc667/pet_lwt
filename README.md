@@ -16,6 +16,7 @@
 - Правый клик открывает выбор питомца, размер, автозапуск и выход.
 - Значок в области уведомлений Windows позволяет показать, скрыть или закрыть приложение.
 - Повторный запуск не создаёт вторую копию.
+- Пункт «Проверить обновления» в меню сверяет установленную версию с последним GitHub Release и предлагает открыть страницу скачивания.
 - Для добавления питомца положите анимированный GIF в папку `pets`. Он появится в меню при следующем правом клике.
 
 Приложение также поддерживает папку с `spritesheet.png` размером 1536 × 2288 пикселей: сетка 8 × 11, ячейка 192 × 208. Для анимаций используются строки 0–8.
@@ -40,4 +41,5 @@ python pet_qt.py
 ---
 
 pet_lwt is a small standalone animated pet for Windows. Download the Windows ZIP from Releases, extract it, keep `pets` next to `pet_lwt.exe`, and run the executable. Right click the pet to choose a character, size, autostart, or exit. Drag it with the left mouse button. The tray icon can show, hide, or exit the app. Add animated GIFs to `pets` to add characters.
+
 
